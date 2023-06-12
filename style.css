@@ -1,0 +1,217 @@
+/* body{
+    margin: 0;
+} */
+.navbar{
+    display: flex;
+    background-color: #6F6AF7;
+    margin: auto;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    position:fixed;
+    top: 0px;
+    width: 100vw;
+}
+.navbar-logo{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 40px;
+}
+.navbar-options ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+}
+.navbar-options ul li{
+    margin-right: 25px;
+}
+.navbar-options ul li select{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.navbar-options ul li input{
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    font-size: 20px;
+}
+.navbar-options ul li:last-of-type{
+    position: relative;
+}
+.navbar-options ul li img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 16px;
+}
+.navbar-abc img{
+    height: 40px;
+}
+.social-media{
+    position:sticky;
+    top: 80px;
+    margin-top:100px;
+    float: right;
+}
+.social-media img{
+    height: 50px;
+    display: block;
+    width: fit-content;
+}
+.banner{
+    display: flex;   
+    align-items: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+.left-banner img{
+    height: 450px;
+    width: 410px;
+}
+.right-banner{
+    background-color: #E5D8FF;
+    padding: 30px ;
+    border-radius: 20px;
+    height: 400px;
+    width: 1200px;
+    box-sizing: border-box;
+}
+.right-banner p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #6F7373;
+}
+.rectangle-container{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.rect{
+    width: 22%;
+    padding:15px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;  
+}
+.rect-1{
+    background: #929DFF;
+}
+.rect-2{
+    background: #734CF2;
+}
+.rect-3{
+    background: #D288FF;
+}
+.rect-4{
+    background: #000000;
+}
+.chatbot{
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 90px;
+    bottom: 2px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+}
+.chatbot img{
+    width: 50px;
+    height: 50px;
+}
+.box{
+    display: flex;
+    background-color: #483EFF;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    border-radius: 21px;
+    height: 60vh;
+    margin-top: 10vh;
+    margin-bottom: 40vh;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left-box button{
+    padding: 15px 35px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    border-style: solid;  
+}
+.left-box button:first-of-type{
+   background: #BCE0F6;
+   color: black;
+   box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+}
+.right-box{
+    box-sizing: border-box;
+    width: 70%;
+    height: 86%;
+    background-color: white;
+    margin: 2% 0 2% 0;
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+}
+.information{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.info{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.info span{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+.next-button{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+}
+.next-button img{
+    width: 15px;
+    margin-left: 15px;
+}
+
+
